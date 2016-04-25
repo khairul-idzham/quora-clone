@@ -20,4 +20,5 @@ class CreateTables < ActiveRecord::Migration
 			x.string :answer
 			x.timestamps null: false
 		end
+	end
 end
